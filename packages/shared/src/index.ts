@@ -1,14 +1,14 @@
 export interface HealthCheck {
-  status: string
+    status: string
 }
 
 export interface ApiResponse<T> {
-  data: T;
-  message?: string;
+    data: T;
+    message?: string;
 }
 
 export interface User {
-  id: number
-  name: string | null
-  email: string 
+    id: number
+    name: string | null
+    email: string 
 }
